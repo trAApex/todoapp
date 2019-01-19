@@ -1,0 +1,69 @@
+.minden {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  background-color: lightgrey;
+  box-shadow: 5px 10px #555;
+  border-radius: 5px;
+}
+
+.hr {
+  width: 60%;
+  margin-top: 15px;
+}
+
+.reszletes-ut {
+  padding-top: 20px;
+}
+
+.resz {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.gomb-tipus {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 3px 7px 3px 7px;
+  margin-top: 10px;
+}
+
+.gomb-tipus:hover {
+  background-color: #fff;
+}
+
+.resz-egy {
+
+}
+
+.vegeredmeny {
+
+}
+
+.veg {
+  font-size: 20px;
+  padding-right: 7px;
+  font-weight: bold;
+}
+
+.veg-egy {
+
+}
+
+.fene {
+  padding: 15px 0 20px 0;
+}
+
+.back-gomb {
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  color: black;
+  border-radius: 5px;
+  background-color: #e5dde0;
+  padding: 3px 7px 3px 7px;
+}
+
+.back-gomb:hover {
+  background-color: #fff;
+}

@@ -1,6 +1,8 @@
 import React, { Component, createRef } from 'react';
 import ListItemContainer from '../containers/ListItemContainer';
 
+import './App.css';
+
 class App extends Component{
   constructor(props){
     super(props);
@@ -9,10 +11,10 @@ class App extends Component{
 
   render() {
     return(
-      <div>
-      <h1>Céges autók listázása</h1>
-        <div>
-          <h2>Összes autó</h2>
+      <div className="main">
+      <h1 className="element">Céges autók listázása</h1>
+        <div className="secondmain">
+          <h2 className="allcar">Összes autó</h2>
           <div>
             {this.props.cars.map((data) => {
               return (
@@ -23,11 +25,11 @@ class App extends Component{
               )
             })}
           </div>
-          <h4>Új autó hozzáadása:</h4>
-          <input type="text" ref={this.inputRef} placeholder="auto fajtaja" />
-          <button
-            onClick={e => this.props.addhozza(this.inputRef.current.value)}>Add
-          </button>
+            <h4 className="newcar">Új autó hozzáadása:</h4>
+            <input type="text" ref={this.inputRef} placeholder="auto fajtaja" className="carinput"/>
+            <button
+              onClick={e => this.props.addhozza(this.inputRef.current.value)} className="addcar">Add
+            </button>
         </div>
       </div>
     );

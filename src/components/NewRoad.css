@@ -1,0 +1,76 @@
+.main-road {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  background-color: lightgrey;
+  box-shadow: 5px 10px #555;
+  border-radius: 5px;
+}
+
+.new-way {
+  padding-top: 20px;
+}
+
+.cars {
+  border: 2px solid;
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.all-way {
+  margin-top: 20px;
+  border: 2px solid #555;
+  padding-bottom: 15px;
+  text-align: center;
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.honnan {
+  border-radius: 5%;
+  margin-right: 3px;
+}
+
+.hova {
+  border-radius: 5%;
+  margin-right: 3px;
+}
+
+.mivel {
+  border-radius: 5%;
+}
+
+.button {
+  margin-left: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 1px 7px 1px 7px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.starter {
+  padding-bottom: 20px;
+}
+
+.starter-screen {
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  color: black;
+  border-radius: 5px;
+  background-color: #e5dde0;
+  padding: 3px 7px 3px 7px;
+}
+
+.starter-screen:hover {
+  background-color: #fff;
+}

@@ -1,0 +1,81 @@
+.main-content {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  background-color: lightgrey;
+  box-shadow: 5px 10px #555;
+  border-radius: 5px;
+}
+
+.main-form {
+  border: 2px solid #555;
+  padding-bottom: 15px;
+  text-align: center;
+  display: inline-block;
+  width: 65%;
+  margin-bottom: 25px;
+}
+
+.car-name {
+  font-weight: bold;
+}
+
+.auto-input {
+  border-radius: 5px;
+}
+
+.rendszam {
+  font-weight: bold;
+}
+
+.rendszam-input {
+  border-radius: 5px;
+}
+
+.submit {
+  margin-top: 10px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: #fff;
+}
+
+.main-back {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.back {
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  color: black;
+  border-radius: 5px;
+  background-color: #e5dde0;
+  padding: 3px 7px 3px 7px;
+}
+
+.back:hover {
+  background-color: #fff;
+}
+
+.main-next {
+  padding-bottom: 25px;
+}
+
+.next {
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  color: black;
+  border-radius: 5px;
+  background-color: #e5dde0;
+  padding: 3px 7px 3px 7px;
+}
+
+.next:hover {
+  background-color: #fff;
+}

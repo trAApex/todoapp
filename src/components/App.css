@@ -1,0 +1,37 @@
+.main {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  background-color: lightgrey;
+  box-shadow: 5px 10px #555;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.element {
+  margin-top: 35px;
+  padding-top: 20px;
+}
+
+.secondmain {
+  border: 2px solid #555;
+  padding-bottom: 15px;
+  text-align: center;
+  display: inline-block;
+  width: 65%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.carinput{
+  border-radius: 5px;
+}
+
+.addcar {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.addcar:hover {
+  background-color: #fff;
+}

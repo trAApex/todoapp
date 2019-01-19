@@ -3,13 +3,15 @@ import { Link, Redirect } from 'react-router-dom';
 import RenderField from './RenderField';
 import { Field, reduxForm } from 'redux-form/immutable';
 
+import './TodoDetail.css';
+
 let CarEditForm = props => {
   const { handleSubmit } = props;
-  return  <form onSubmit={handleSubmit}>
-            <h4>Autó adatainak megváltoztatása:</h4>
-              Autó: <Field type="text" name="auto" placeholder="auto" component={RenderField}/><br/>
-              Rendszám: <Field type="text" name="rendszam" placeholder="rendszam" component={RenderField}/>
-              <button type="submit">Add</button>
+  return  <form className="main-form" onSubmit={handleSubmit}>
+            <h4 className="change-data">Autó adatainak megváltoztatása:</h4>
+              <span className="car-name">Autó:</span><Field type="text" name="auto" placeholder="auto" component={RenderField} className="auto-input"/><br/>
+              <span className="rendszam">Rendszám:</span> <Field type="text" name="rendszam" placeholder="rendszam" component={RenderField} className="rendszam-input"/>
+              <button type="submit" className="submit">Add</button>
           </form>
 }
 
@@ -24,13 +26,13 @@ function TodoDetail({item, onCarChange}){
     )
   }
   return(
-    <div>
-      <h1>
+    <div className="main-content">
+      <h1 className="auto">
         Autó: {item.get('auto')} - Rendszáma: {item.get('rendszam')}
       </h1>
       <CarEditFormContainer initialValues={item} onSubmit={onCarChange} />
-      <div><Link to="/">Back</Link></div>
-      <div><Link to='/newway'>Tovább az útra</Link></div>
+      <div className="main-back"><Link to="/" className="back">Back</Link></div>
+      <div className="main-next"><Link to='/newway' className="next">Tovább az útra</Link></div>
     </div>
   );
 }

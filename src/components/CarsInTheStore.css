@@ -1,0 +1,9 @@
+.car {
+  padding-bottom: 15px;
+}
+
+.car-list {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}

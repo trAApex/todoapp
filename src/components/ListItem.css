@@ -1,0 +1,53 @@
+.carone {
+  font-size: 20px;
+  padding-right: 7px;
+  font-weight: bold;
+}
+
+.cartwo {
+  padding-right: 8px;
+}
+
+.vertical-line {
+  border-left: 4px solid #696969;
+  padding-right: 5px;
+}
+
+.rendszam {
+  padding-right: 10px;
+}
+
+.rendszam-elso {
+  font-size: 20px;
+  padding-right: 7px;
+  font-weight: bold;
+}
+
+.rendszam-zero {
+  font-weight: normal;
+}
+
+.edit {
+  padding-right: 7px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid;
+  background-color: #e5dde0;
+  border-radius: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.edit:hover {
+  background-color: #fff;
+}
+
+.delete {
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #fff;
+}

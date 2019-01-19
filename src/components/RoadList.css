@@ -1,0 +1,61 @@
+.vertical-line2 {
+  border-left: 4px solid #696969;
+  padding-left: 5px;
+}
+
+.honna {
+  font-size: 20px;
+  padding-right: 7px;
+  font-weight: bold;
+}
+
+.honna-two {
+  padding-right: 5px;
+}
+
+.hov {
+  font-size: 20px;
+  padding-right: 7px;
+  font-weight: bold;
+}
+
+.hov-two {
+  padding-right: 5px;
+}
+
+.aut {
+  font-size: 20px;
+  padding-right: 7px;
+  font-weight: bold;
+}
+
+.aut-two {
+  padding-right: 10px;
+}
+
+.edit-two {
+  padding-right: 6px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid;
+  background-color: #e5dde0;
+  border-radius: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.edit-two:hover {
+  background-color: #fff;
+}
+
+.gomb {
+  margin-left: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 1px 7px 1px 7px;
+  border-radius: 5px;
+}
+
+.gomb:hover {
+  background-color: #fff;
+}
