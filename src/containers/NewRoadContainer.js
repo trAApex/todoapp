@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import NewRoad from '../components/NewRoad';
+import NewRoad from '../components/NewRoad/NewRoad';
 import { addWay } from '../actions/todos';
 
 function mapStateToProps(state, props){

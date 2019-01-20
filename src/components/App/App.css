@@ -35,3 +35,21 @@
 .addcar:hover {
   background-color: #fff;
 }
+
+@media (min-width: 1000px) {
+  .main {
+    width: 787px;
+  }
+}
+
+@media (min-width: 1099px) {
+  .main {
+    width: 900px;
+  }
+}
+
+@media (min-width: 1375px) {
+  .main {
+    width: 1000px;
+  }
+}

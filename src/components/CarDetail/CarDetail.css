@@ -20,16 +20,8 @@
   font-weight: bold;
 }
 
-.auto-input {
-  border-radius: 5px;
-}
-
 .rendszam {
   font-weight: bold;
-}
-
-.rendszam-input {
-  border-radius: 5px;
 }
 
 .submit {
@@ -78,4 +70,22 @@
 
 .next:hover {
   background-color: #fff;
+}
+
+@media (min-width: 1000px) {
+  .main-content {
+    width: 787px;
+  }
+}
+
+@media (min-width: 1099px) {
+  .main-content {
+    width: 900px;
+  }
+}
+
+@media (min-width: 1375px) {
+  .main {
+    width: 1000px;
+  }
 }

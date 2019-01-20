@@ -33,7 +33,7 @@
 }
 
 .resz-egy {
-
+  border-radius: 5px;
 }
 
 .vegeredmeny {
@@ -44,10 +44,6 @@
   font-size: 20px;
   padding-right: 7px;
   font-weight: bold;
-}
-
-.veg-egy {
-
 }
 
 .fene {
@@ -66,4 +62,22 @@
 
 .back-gomb:hover {
   background-color: #fff;
+}
+
+@media (min-width: 1000px) {
+  .minden {
+    width: 787px;
+  }
+}
+
+@media (min-width: 1099px) {
+  .minden {
+    width: 900px;
+  }
+}
+
+@media (min-width: 1375px) {
+  .minden {
+    width: 1000px;
+  }
 }

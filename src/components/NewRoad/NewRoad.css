@@ -74,3 +74,21 @@
 .starter-screen:hover {
   background-color: #fff;
 }
+
+@media (min-width: 1000px) {
+  .main-road {
+    width: 787px;
+  }
+}
+
+@media (min-width: 1099px) {
+  .main-road {
+    width: 900px;
+  }
+}
+
+@media (min-width: 1375px) {
+  .main-road {
+    width: 1000px;
+  }
+}

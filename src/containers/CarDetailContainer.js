@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import TodoDetail from '../components/TodoDetail';
+import TodoDetail from '../components/CarDetail/CarDetail';
 import { updateCar } from '../actions/todos';
 
 function mapStateToProps(state, props){

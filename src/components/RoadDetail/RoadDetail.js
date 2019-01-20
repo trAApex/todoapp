@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
-import RenderField from './RenderField';
+import RenderField from '../RenderField';
 import { Field, reduxForm } from 'redux-form/immutable';
 
 import './RoadDetail.css';
@@ -31,7 +31,7 @@ function NewWay({item, onWayChange}){
   }
   return(
     <div className="minden">
-    <h2></h2>
+    <h2>Út részletes adatai</h2>
       <WayEditFormContainer initialValues={item} onSubmit={onWayChange} />
       {
         <div className="vegeredmeny">

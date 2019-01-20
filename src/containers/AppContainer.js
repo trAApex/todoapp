@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import App from '../components/App';
+import App from '../components/App/App';
 import { addCar } from '../actions/todos';
 
 function mapStateToProps(state, props){

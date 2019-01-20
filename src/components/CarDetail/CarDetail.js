@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
-import RenderField from './RenderField';
+import RenderField from '../RenderField';
 import { Field, reduxForm } from 'redux-form/immutable';
 
-import './TodoDetail.css';
+import './CarDetail.css';
 
 let CarEditForm = props => {
   const { handleSubmit } = props;

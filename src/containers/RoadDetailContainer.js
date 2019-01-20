@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import RoadDetail from '../components/RoadDetail';
+import RoadDetail from '../components/RoadDetail/RoadDetail';
 import { updateWay } from '../actions/todos';
 
 function mapStateToProps(state, props){
